@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+}
+header,
+footer {
+  background-color: #4682b4;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+.container {
+  padding: 20px;
+}
+.text-block,
+.image-block,
+.form-block,
+.link-block {
+  margin-bottom: 20px;
+}
+.text-block p {
+  line-height: 1.6;
+}
+.image-block img {
+  max-width: 100%;
+  height: auto;
+}
+.form-block form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+.form-block form input,
+.form-block form textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 1em;
+}
+.form-block form button {
+  padding: 10px;
+  background-color: #4682b4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
